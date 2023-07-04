@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:#ecf0f1 ;
+	font-family: 'Cairo', sans-serif;
+}
+
+.content{
+	width: 90%;
+	margin: 20px auto;
+	background: white;
+}
+
+.left{
+	width: 30%;
+	float: right;
+	display: block;
+	padding-left:20px;
+
+}
+
+.left .img{
+	width: 250px;
+}
+
+.left .img img{
+	width: 100%;
+}
+.left .infor_education{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #bdc3c7;
+
+}
+.left .infor_education:last-child{
+	border-bottom: none;
+}
+.left .infor_education h2{
+	padding-bottom: 15px;
+}
+.right{
+	width: 65%;
+	float: right;
+	padding-right: 20px;
+}
+
+.right .main h5{
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.right .experience{
+	padding-top: 20px;
+}
+
+.right .experience .postion{
+	padding-top: 15px;
+}
+
+.right .experience_n .postion{
+	padding-top: 15px;
+}
+
+.btn_add a{
+	background-color: #0984e3;
+	color: white;
+	text-decoration: none;
+	padding: 0px 24px;
+	border-radius: 20px;
+}
